@@ -2,14 +2,16 @@
   "name": "ecommerce-api",
   "version": "1.0.0",
   "description": "An e-commerce API built with Node.js, Express, and Sequelize",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "Ashique Mahamud",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "dotenv": "^17.4.0",
