@@ -9,6 +9,16 @@ const register = async (req, res) => {
   }
 }
 
+const login = async (req, res) => {
+  try {
+    const { user, token } = await authService.loginUser(req.body);
+    res.json({ message: "Login successful", user, token });
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+}
+
 export default {
   register,
+  login,
 };
