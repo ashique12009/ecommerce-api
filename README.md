@@ -146,9 +146,3 @@ Response:
 ```
 Welcome to the E-commerce API
 ```
-
----
-
-## 👨‍💻 Author
-
-Built for learning and scalable backend development using Express.js.
