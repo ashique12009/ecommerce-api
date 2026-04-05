@@ -6,7 +6,7 @@ import publicProductRoutes from "./public.products.routes.js";
 const router = Router();
 
 // Auth routes
-router.use("/auth", authRoutes);
+router.use("/api/auth", authRoutes);
 
 // Protected routes
 router.use("/api", productRoutes);
