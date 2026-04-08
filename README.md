@@ -146,3 +146,12 @@ Response:
 ```
 Welcome to the E-commerce API
 ```
+
+## Packages used
+
+npm install sequelize-cli --save-dev
+npx sequelize-cli init
+npx sequelize-cli seed:generate --name demo-users
+npx sequelize-cli seed:generate --name demo-products
+npx sequelize-cli seed:generate --name demo-orders
+npm run seed
